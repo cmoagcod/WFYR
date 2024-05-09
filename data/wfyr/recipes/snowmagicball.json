@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipement",
+    "group": "",
+    "pattern": [
+      "#O#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:snowball"
+      },
+      "O": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "result": {
+      "id": "minecraft:crossbow",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "SnowMagicBall",
+        "minecraft:custom_name": "[{'text':'La boule magique','italic':false}]",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:max_damage": 1,
+        "minecraft:damage": 1,
+        "minecraft:charged_projectiles": [{
+          "id": "minecraft:spectral_arrow"
+        }]
+      }
+    }
+}

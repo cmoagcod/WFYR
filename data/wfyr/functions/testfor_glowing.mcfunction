@@ -1,0 +1,1 @@
+$execute as @e[nbt={active_effects:[{id:"minecraft:glowing"}]}] run tag @s add canTP$(id)

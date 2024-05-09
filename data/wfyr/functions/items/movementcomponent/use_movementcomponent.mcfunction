@@ -1,0 +1,1 @@
+return run clear @s minecraft:stick[minecraft:item_name="MovementComponent"] 1

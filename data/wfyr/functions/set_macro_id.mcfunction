@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon minecraft:stick[minecraft:item_name=SnowTeleporter] store result storage minecraft:macro id int 1 run scoreboard players get @s player_index
