@@ -1,0 +1,1 @@
+execute as @a[scores={snow_magic_give=2..}] run item modify entity @s weapon wfyr:snowteleporter_2

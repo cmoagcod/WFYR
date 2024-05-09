@@ -13,7 +13,7 @@
       }
     },
     "rewards": {
-      "function": "wfyr:snowteleporter_call"
+      "function": "wfyr:items/snowmagicball/snowteleporter_call"
     },
     "sends_telemetry_event": false
 }

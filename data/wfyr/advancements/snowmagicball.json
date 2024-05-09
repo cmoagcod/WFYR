@@ -13,7 +13,7 @@
       }
     },
     "rewards": {
-      "function": "wfyr:give_snowteleporter"
+      "function": "wfyr:items/snowmagicball/give_snowteleporter"
     }
   }
   

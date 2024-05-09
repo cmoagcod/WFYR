@@ -16,7 +16,7 @@
       "count": 1,
       "components": {
         "minecraft:item_name": "MovementComponent",
-        "minecraft:custom_name": "[{'text':'Movement Component','italic':false}]",
+        "minecraft:custom_name": "[{'text':'Composante de Mouvement','italic':false}]",
         "minecraft:custom_model_data": 20,
         "minecraft:max_stack_size": 16
       }

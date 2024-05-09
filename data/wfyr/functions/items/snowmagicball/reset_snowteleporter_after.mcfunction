@@ -1,0 +1,1 @@
+$tag @e remove canTP$(id)

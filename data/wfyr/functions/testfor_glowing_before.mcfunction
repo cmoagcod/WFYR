@@ -1,1 +1,0 @@
-execute as @e[scores={snow_magic_give=1}] run function wfyr:tag_entity_cantp with storage macro

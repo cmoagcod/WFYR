@@ -6,7 +6,7 @@ execute as @s if score @s dashed matches 1 if score @s temp_dash matches 1 run e
 
 execute as @s if score @s dashed matches 1 if score @s temp_dash matches 1 run item modify entity @s weapon wfyr:hyperdash_used
 
-$execute as @s positioned ^ ^ ^$(forward) positioned ~ ~$(height) ~ if score @s dashed matches 1 if score @s temp_dash matches 1 run scoreboard players set @s dash_cd 300
+$execute as @s positioned ^ ^ ^$(forward) positioned ~ ~$(height) ~ if score @s dashed matches 1 if score @s temp_dash matches 1 run scoreboard players set @s dash_cd 100
 
 $execute as @s positioned ^ ^ ^$(forward) positioned ~ ~$(height) ~ if score @s dashed matches 1 if score @s temp_dash matches 1 run particle minecraft:lava ^ ^ ^ 0 0 0 0 20 normal
 

@@ -1,0 +1,22 @@
+{
+    "function": "minecraft:set_custom_model_data",
+    "value": 40,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:stick",
+              "components": {
+                "minecraft:item_name": "SnowTeleporter",
+                "minecraft:custom_model_data": 35
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  
