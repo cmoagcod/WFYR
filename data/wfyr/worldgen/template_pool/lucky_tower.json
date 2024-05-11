@@ -1,0 +1,15 @@
+{
+  "name": "wfyr:lucky_tower_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "wfyr:lucky_tower"
+      },
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+give @s paper[custom_model_data=10,item_name=Trophy,custom_name="[{'text':'Trophée des 100 sauts','italic':false, 'color': 'green'}]"]

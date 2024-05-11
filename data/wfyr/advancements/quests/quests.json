@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:barrier",
+        "count": 1,
+        "components": {
+          "minecraft:custom_model_data": 1
+        }
+      },
+      "title": "Quêtes",
+      "description": "Quêtes trouvables dans des coffres de loot",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "wfyr:textures/gui/advancements/backgrounds/quests.png"
+    },
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+            "item": {
+              "items": "minecraft:paper"
+            }
+          }
+        }
+    },
+    "rewards": {}
+}

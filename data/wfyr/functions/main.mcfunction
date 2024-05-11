@@ -9,4 +9,7 @@ execute as @a[scores={dash_cd=..0}] run scoreboard players set @s dash_cd 0
 
 execute as @a[scores={dash_cd=0}] run item modify entity @s weapon wfyr:hyperdash_reset
 
+
+execute as @a[scores={jump=100, jump_quest=1}] run function wfyr:quests/jump_quest/done
+
 schedule function wfyr:set_macro_id 2t

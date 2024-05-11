@@ -1,0 +1,43 @@
+{
+    "parent": "wfyr:quests/quests",
+    "display": {
+      "icon": {
+        "id": "minecraft:barrier",
+        "count": 1,
+        "components": {
+          "minecraft:custom_model_data": 2
+        }
+      },
+      "title": "Saute !",
+      "description": "Saute 100 fois !",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "arbalistic": {
+        "trigger": "minecraft:any_block_use",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:bat",
+                "equipment": {
+                  "mainhand": {
+                    "items": "minecraft:barrier"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "wfyr:quests/jump_quest/reward",
+      "experience": 10
+    }
+  }
+  

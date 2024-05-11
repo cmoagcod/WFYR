@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wfyr:lucky_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66665166,
+    "frequency": 0.5,
+    "spacing": 6,
+    "separation": 3
+  }
+}

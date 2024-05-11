@@ -4,6 +4,8 @@ scoreboard objectives add dash_cd dummy
 scoreboard objectives add player_index dummy
 scoreboard objectives add snow_magic_cd dummy
 scoreboard objectives add snow_magic_give dummy
+scoreboard objectives add jump_quest dummy
+scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard players set @a snow_magic_give 0
 scoreboard players set @a snow_magic_cd 0
 scoreboard players set @a player_index 0
