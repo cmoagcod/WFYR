@@ -5,7 +5,7 @@
             "rolls": {
               "type": "minecraft:binomial",
               "n": 1,
-              "p": 0.01
+              "p": 0.04
             },
             "entries": [
               {
@@ -84,7 +84,7 @@
             "rolls": {
               "type": "minecraft:binomial",
               "n": 1,
-              "p": 0.01
+              "p": 0.04
             },
             "entries": [
               {
@@ -163,7 +163,7 @@
             "rolls": {
               "type": "minecraft:binomial",
               "n": 1,
-              "p": 0.01
+              "p": 0.04
             },
             "entries": [
               {
@@ -255,7 +255,7 @@
         "rolls": {
           "type": "minecraft:binomial",
           "n": 1,
-          "p": 0.01
+          "p": 0.04
         },
         "entries": [
           {

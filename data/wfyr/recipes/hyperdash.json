@@ -3,19 +3,19 @@
     "category": "equipement",
     "group": "",
     "pattern": [
-      " X ",
-      "#O#",
-      " X "
+      "  O",
+      " # ",
+      "X  "
     ],
     "key": {
-      "#": {
-        "item": "minecraft:obsidian"
-      },
-      "X": {
-        "item": "minecraft:ghast_tear"
-      },
       "O": {
         "item": "minecraft:ender_pearl"
+      },
+      "#": {
+        "item": "minecraft:end_crystal"
+      },
+      "X": {
+        "item": "minecraft:breeze_rod"
       }
     },
     "result": {
@@ -26,11 +26,14 @@
           "nutrition": 0,
           "saturation": 0,
           "can_always_eat": true,
-          "eat_seconds": 1000000000
+          "eat_seconds": 1000000
         },
-        "minecraft:custom_model_data": 2,
         "minecraft:max_stack_size": 1,
-        "minecraft:item_name": "HyperDash"
+        "minecraft:custom_model_data": 2,
+        "minecraft:item_name": "HyperDash",
+        "minecraft:custom_name": "[\"\",{\"text\":\"Baguette d'avance rapide\",\"italic\":false}]",
+        "minecraft:rarity": "epic"
       }
     }
-}
+  }
+  
