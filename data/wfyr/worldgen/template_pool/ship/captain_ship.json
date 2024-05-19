@@ -1,0 +1,16 @@
+{
+    "name": "wfyr:ship/captain_ship_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wfyr:ship/captain_ship",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

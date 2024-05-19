@@ -30,6 +30,18 @@
               }
             ]
           }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "jump_quest": {
+                "min": 0,
+                "max": 0
+              }
+            }
+          }
         ]
       },
       {
@@ -105,13 +117,13 @@
       {
         "rolls": {
           "type": "minecraft:binomial",
-          "n": 1,
-          "p": 0.2
+          "n": 3,
+          "p": 0.4
         },
         "bonus_rolls": {
           "type": "minecraft:binomial",
           "n": 2,
-          "p": 0.1
+          "p": 0.8
         },
         "entries": [
           {

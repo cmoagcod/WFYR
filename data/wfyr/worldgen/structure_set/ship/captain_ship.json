@@ -1,0 +1,16 @@
+{
+    "structures": [
+      {
+        "structure": "wfyr:ship/captain_ship",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 310090829,
+      "frequency": 0.05,
+      "spacing": 22,
+      "separation": 8
+    }
+  }
+  
