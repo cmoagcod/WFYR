@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "",
+    "pattern": [
+      "OOO",
+      "O#O",
+      "OOO"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:ancient_debris"
+      },
+      "#": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "result": {
+      "id": "minecraft:stick",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1,
+        "minecraft:custom_model_data": 50,
+        "minecraft:item_name": "FoodAmulet",
+        "minecraft:custom_name": "[\"\",{\"text\":\"Amulette de Pafin\",\"italic\":false, \"color\":\"green\"}]",
+        "minecraft:rarity": "epic"
+      }
+    }
+  }
+  

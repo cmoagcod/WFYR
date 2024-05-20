@@ -15,24 +15,9 @@
       "hidden": true
     },
     "criteria": {
-      "arbalistic": {
-        "trigger": "minecraft:any_block_use",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type": "minecraft:bat",
-                "equipment": {
-                  "mainhand": {
-                    "items": "minecraft:barrier"
-                  }
-                }
-              }
-            }
-          ]
-        }
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
       }
     },
     "rewards": {

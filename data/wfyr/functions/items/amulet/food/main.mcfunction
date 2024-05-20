@@ -1,0 +1,1 @@
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=FoodAmulet] run effect give @s minecraft:saturation 1 2 true
