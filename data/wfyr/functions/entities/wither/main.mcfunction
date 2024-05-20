@@ -1,0 +1,1 @@
+schedule function wfyr:entities/wither/random_effect 2s

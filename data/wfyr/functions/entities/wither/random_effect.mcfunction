@@ -1,0 +1,1 @@
+execute store result score ##system random_value run random value 1..100

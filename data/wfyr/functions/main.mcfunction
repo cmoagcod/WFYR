@@ -1,4 +1,6 @@
 scoreboard players add @a jump_quest 0
+scoreboard players add @a player_index 0
+
 
 execute as @a[scores={player_index=0}] run function wfyr:system/index/increment_player_index
 
@@ -15,3 +17,4 @@ execute as @a[scores={dash_cd=0}] run item modify entity @s weapon wfyr:hyperdas
 execute as @a[scores={jump=314, jump_quest=1}] run function wfyr:quests/jump_quest/done
 
 schedule function wfyr:set_macro_id 2t
+function wfyr:blocks/plate/main
