@@ -8,10 +8,10 @@
     ],
     "key": {
       "O": {
-        "item": "minecraft:netherite_block"
+        "item": "minecraft:nether_star"
       },
       "#": {
-        "item": "minecraft:enchanted_golden_apple"
+        "item": "minecraft:dragon_head"
       }
     },
     "result": {
@@ -19,9 +19,9 @@
       "count": 1,
       "components": {
         "minecraft:max_stack_size": 1,
-        "minecraft:custom_model_data": 50,
-        "minecraft:item_name": "FoodAmulet",
-        "minecraft:custom_name": "[\"\",{\"text\":\"Amulette de Pafin\",\"italic\":false, \"color\":\"green\"}]",
+        "minecraft:custom_model_data": 55,
+        "minecraft:item_name": "ImmunityAmulet",
+        "minecraft:custom_name": "[\"\",{\"text\":\"Amulette d'immunité\",\"italic\":false, \"color\":\"dark_purple\"}]",
         "minecraft:rarity": "epic"
       }
     }

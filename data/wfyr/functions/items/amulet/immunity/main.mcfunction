@@ -1,0 +1,10 @@
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:wither
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:poison
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:weakness
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:darkness
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:nausea
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:hunger
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:infested
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:instant_damage
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:mining_fatigue
+execute as @a if items entity @s container.17 minecraft:stick[minecraft:item_name=ImmunityAmulet] run effect clear @s minecraft:unluck

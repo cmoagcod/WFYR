@@ -27,4 +27,7 @@ execute as @a[scores={jump=314, jump_quest=1}] run function wfyr:quests/jump_que
 function wfyr:blocks/plate/main
 
 function wfyr:items/amulet/health/main
+function wfyr:items/amulet/immunity/main
 function wfyr:items/amulet/food/main
+
+execute if entity @e[type=wither] run function wfyr:entities/wither/main
