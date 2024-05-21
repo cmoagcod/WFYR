@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=redstone_receiver,distance=..2,sort=nearest,limit=1] at @s run setblock ~ ~ ~ air replace

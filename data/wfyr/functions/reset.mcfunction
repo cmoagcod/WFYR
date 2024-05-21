@@ -6,6 +6,7 @@ scoreboard objectives add snow_magic_cd dummy
 scoreboard objectives add snow_magic_give dummy
 scoreboard objectives add jump_quest dummy
 scoreboard objectives add random_value dummy
+scoreboard objectives add redstone_link dummy
 scoreboard objectives add jump minecraft.custom:minecraft.jump
 scoreboard players add @a snow_magic_give 0
 scoreboard players add @a snow_magic_cd 0

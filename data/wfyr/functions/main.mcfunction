@@ -26,6 +26,9 @@ execute as @a[scores={jump=314, jump_quest=1}] run function wfyr:quests/jump_que
 # Tick functions
 function wfyr:blocks/plate/main
 
+function wfyr:blocks/wireless_redstone/transmitter/main
+function wfyr:blocks/wireless_redstone/receiver/main
+
 function wfyr:items/amulet/health/main
 function wfyr:items/amulet/immunity/main
 function wfyr:items/amulet/food/main
