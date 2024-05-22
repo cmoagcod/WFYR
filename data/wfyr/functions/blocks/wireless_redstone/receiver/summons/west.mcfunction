@@ -4,4 +4,3 @@ summon interaction ~0.15 ~0.9 ~ {height:0.2f,width:0.5f,Tags:["redstone_receiver
 scoreboard players set @e[distance=0..1,sort=nearest,tag=redstone_receiver] redstone_link 0
 scoreboard players set ##system redstone_link 0
 summon text_display ~0.015 ~1 ~-0.015 {Tags:["redstone_receiver_text"],text:'[{"score":{"name":"##system","objective":"redstone_link"}}]',Rotation:[90F,-90F],background:16711680,shadow:0b,see_through:0b}
-say west

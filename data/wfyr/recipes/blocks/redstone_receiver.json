@@ -2,22 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "category": "redstone",
     "pattern": [
-      " I ",
-      "AOA",
-      "XXX"
+      "XIX",
+      "IOI",
+      "XIX"
     ],
     "key": {
       "I": {
         "item": "minecraft:redstone_torch"
       },
       "O": {
-        "item": "minecraft:redstone"
-      },
-      "A": {
-        "item": "minecraft:redstone_block"
+        "item": "minecraft:stone"
       },
       "X": {
-        "item": "minecraft:stone"
+        "item": "minecraft:lightning_rod"
       }
     },
     "result": {
