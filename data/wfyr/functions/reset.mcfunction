@@ -1,3 +1,7 @@
+scoreboard objectives add pos.x dummy
+scoreboard objectives add pos.y dummy
+scoreboard objectives add pos.z dummy
+
 scoreboard objectives add dashed dummy
 scoreboard objectives add temp_dash dummy
 scoreboard objectives add dash_cd dummy
