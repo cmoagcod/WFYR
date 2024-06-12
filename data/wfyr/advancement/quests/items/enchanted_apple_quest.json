@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "EnchantedAppleQuest"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "wfyr:quests/enchanted_apple_quest/right_click"
+    },
+    "sends_telemetry_event": false
+}
+  

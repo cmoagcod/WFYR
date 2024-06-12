@@ -4,6 +4,7 @@ scoreboard players add @a plate_quest 0
 scoreboard players add @a redstone_blocks_quest 0
 scoreboard players add @a gold_quest 0
 scoreboard players add @a lightning_quest 0
+scoreboard players add @a enchanted_apple_quest 0
 
 scoreboard players add @a player_index 0
 

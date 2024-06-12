@@ -1,0 +1,24 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Quête de La nourriture du créateur",
+      "color": "gold",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Mange-la",
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

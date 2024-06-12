@@ -16,6 +16,7 @@ scoreboard objectives add plate_quest dummy
 scoreboard objectives add redstone_blocks_quest dummy
 scoreboard objectives add gold_quest dummy
 scoreboard objectives add lightning_quest dummy
+scoreboard objectives add enchanted_apple_quest dummy
 
 scoreboard objectives add random_value dummy
 
