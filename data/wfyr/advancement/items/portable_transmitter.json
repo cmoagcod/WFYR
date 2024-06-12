@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:stick",
+            "components": {
+              "minecraft:item_name": "PortableRedstoneTransmitter"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "wfyr:items/wireless_redstone/portable_transmitter/on"
+    },
+    "sends_telemetry_event": false
+}

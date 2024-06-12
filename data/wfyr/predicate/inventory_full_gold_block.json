@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "inventory.*": {
+          "items": "minecraft:gold_block",
+          "count": 64
+        }
+      }
+    }
+  }

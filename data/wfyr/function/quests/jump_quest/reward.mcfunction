@@ -1,0 +1,2 @@
+tellraw @s {"text":"Vous avez complété la quête mystère: Sauter 314 fois !","color":"green"}
+give @s paper[custom_model_data=10,item_name=Trophy,custom_name="[{'text':'Trophée des 314 sauts','italic':false, 'color': 'green'}]"]

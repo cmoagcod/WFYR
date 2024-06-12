@@ -1,0 +1,2 @@
+execute store result storage portable_redstone_link value int 1 run scoreboard players get @s channel
+function wfyr:items/wireless_redstone/portable_transmitter/edit_channel with storage portable_redstone_link

@@ -1,0 +1,24 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Quête de Sébast de Perceval",
+      "color": "gold",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Remplis ton inventaire de blocs d'or",
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

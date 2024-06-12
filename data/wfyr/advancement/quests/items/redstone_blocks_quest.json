@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "RedstoneBlocksQuest"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "wfyr:quests/redstone_blocks_quest/right_click"
+    },
+    "sends_telemetry_event": false
+}
+  

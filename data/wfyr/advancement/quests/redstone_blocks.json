@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone_block"
+      },
+      "title": "Passionné d'énergie",
+      "description": "Une énergie... inépuisable !?",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "wfyr:quests/quests",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "redstone_blocks_quest": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": "minecraft:redstone_block",
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "wfyr:quests/redstone_blocks_quest/done",
+      "experience": 10
+    }
+  }
+  

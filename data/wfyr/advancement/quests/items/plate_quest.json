@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "PlateQuest"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "wfyr:quests/plate_quest/right_click"
+    },
+    "sends_telemetry_event": false
+}
+  

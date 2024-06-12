@@ -1,0 +1,1 @@
+execute at @e[tag=redstone_receiver] if score @s redstone_link = @e[sort=nearest,distance=..1,tag=redstone_receiver,limit=1] redstone_link if block ~ ~ ~ redstone_block run setblock ~ ~ ~ black_glazed_terracotta

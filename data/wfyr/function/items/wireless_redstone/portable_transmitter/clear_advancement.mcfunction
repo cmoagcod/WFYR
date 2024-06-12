@@ -1,0 +1,2 @@
+schedule clear wfyr:items/wireless_redstone/portable_transmitter/clear_advancement
+advancement revoke @a only wfyr:items/portable_transmitter

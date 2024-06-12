@@ -1,0 +1,29 @@
+{
+    "parent": "wfyr:quests/quests",
+    "frame": "challenge",
+    "display": {
+      "icon": {
+        "id": "minecraft:barrier",
+        "count": 1,
+        "components": {
+          "minecraft:custom_model_data": 2
+        }
+      },
+      "title": "Saute !",
+      "description": "Saute 314 fois !",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "wfyr:quests/jump_quest/reward",
+      "experience": 10
+    }
+  }
+  

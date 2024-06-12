@@ -1,0 +1,24 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "target": "custom_name",
+    "name": {
+      "text": "Quête de l'ingénieur",
+      "color": "red",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Récolte 64 blocs de redstone",
+        "italic": true
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

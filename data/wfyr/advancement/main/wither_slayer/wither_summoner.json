@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:soul_sand"
+      },
+      "title": {
+        "text": "Créateur de ",
+        "extra": [
+          {
+            "text": "wither",
+            "obfuscated": true
+          }
+        ]
+      },
+      "description": "Il en faut 3",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "wfyr:main/main",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:summoned_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wither"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 10
+    }
+  }
+  

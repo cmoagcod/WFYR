@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      "title": {
+        "text": "Pourfendeur de ",
+        "extra": [
+          {
+            "text": "wither",
+            "obfuscated": true
+          }
+        ]
+      },
+      "description": "C'est quoi au juste ?",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "wfyr:main/wither_slayer/wither_summoner",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wither"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "experience": 10
+    }
+  }
+  
