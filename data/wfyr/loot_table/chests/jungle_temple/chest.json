@@ -5,7 +5,7 @@
         "rolls": {
           "type": "minecraft:binomial",
           "n": 1,
-          "p": 0.3
+          "p": 0.5
         },
         "bonus_rolls": 0,
         "entries": [
@@ -16,15 +16,15 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": "GoldQuest",
-                  "minecraft:custom_model_data": 2,
+                  "minecraft:item_name": "LightningQuest",
+                  "minecraft:custom_model_data": 1,
                   "minecraft:food": {
                     "nutrition": 0,
                     "saturation": 0,
                     "can_always_eat": true,
                     "eat_seconds": 10000000000
                   },
-                  "minecraft:custom_name": "[{'text':'Quête Moyenne','italic':false, 'color': 'gold'}]",
+                  "minecraft:custom_name": "[{'text':'Quête Facile','italic':false, 'color': 'green'}]",
                   "minecraft:max_stack_size": 1
                 }
               }
@@ -36,7 +36,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "gold_quest": {
+              "lightning_quest": {
                 "min": 0,
                 "max": 0
               }
@@ -53,7 +53,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:end_stone"
+            "name": "minecraft:stone"
           }
         ]
       },
@@ -79,20 +79,20 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:wooden_sword"
+            "name": "minecraft:stone_sword"
           }
         ]
       },
       {
         "rolls": {
           "type": "minecraft:binomial",
-          "n": 1,
+          "n": 13,
           "p": 0.3
         },
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:coal_block"
+            "name": "minecraft:cobblestone"
           }
         ]
       },
