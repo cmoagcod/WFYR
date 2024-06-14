@@ -23,7 +23,7 @@
     },
     "rewards": {
       "recipes": [
-        "wfyr:amulets/food_amulet"
+        "wfyr:amulets/immunity_amulet"
       ],
       "experience": 100
     }
