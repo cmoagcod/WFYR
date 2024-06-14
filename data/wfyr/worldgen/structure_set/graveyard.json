@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wfyr:graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66655166,
+    "frequency": 0.15,
+    "spacing": 6,
+    "separation": 3
+  }
+}

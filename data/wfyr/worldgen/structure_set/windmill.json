@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wfyr:windmill",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 56655166,
+    "frequency": 0.01,
+    "spacing": 10,
+    "separation": 6
+  }
+}

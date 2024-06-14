@@ -1,0 +1,16 @@
+{
+    "name": "wfyr:jungle/jungle_temple",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wfyr:jungle/jungle_temple",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

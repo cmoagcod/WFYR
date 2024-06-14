@@ -1,0 +1,16 @@
+{
+    "name": "wfyr:desert/desert_fountain",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "wfyr:desert/desert_fountain",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wfyr:end/end_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66665166,
+    "frequency": 0.03,
+    "spacing": 15,
+    "separation": 13
+  }
+}
