@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:spruce_log"
+      },
+      "title": "Quelle manque d'originalité !",
+      "description": "Place une bûche de sapin",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "wfyr:main/build/all_the_logs/birch",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:spruce_log",
+              "properties": {}
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 2
+    }
+  }
+  

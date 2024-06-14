@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:dark_oak_log"
+      },
+      "title": "Dark Sasuke !",
+      "description": "Place une bûche de chêne noir",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "wfyr:main/build/all_the_logs/acacia",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:dark_oak_log",
+              "properties": {}
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 2
+    }
+  }
+  

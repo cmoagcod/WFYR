@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:acacia_log"
+      },
+      "title": "Ah il est beau ce bloc !",
+      "description": "Place une bûche d'acacia",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "wfyr:main/build/all_the_logs/jungle",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:acacia_log",
+              "properties": {}
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 2
+    }
+  }
+  

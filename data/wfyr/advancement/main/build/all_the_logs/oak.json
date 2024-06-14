@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:oak_log"
+      },
+      "title": "Le début du début !",
+      "description": "Place une bûche de chêne",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "wfyr:main/main",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:oak_log",
+              "properties": {}
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 2
+    }
+  }
+  

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:jungle_log"
+      },
+      "title": "Va trouver une jungle !",
+      "description": "Place une bûche d'acajou",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "wfyr:main/build/all_the_logs/spruce",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:jungle_log",
+              "properties": {}
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 2
+    }
+  }
+  
